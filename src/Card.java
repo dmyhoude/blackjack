@@ -1,5 +1,3 @@
-import com.sun.org.apache.bcel.internal.generic.RETURN;
-
 /**
  * A class representing a French set of playing card.
  *
