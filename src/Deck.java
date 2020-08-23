@@ -18,7 +18,7 @@ public class Deck {
      * Build a new Deck of cards
      */
     private Deck() {
-        this.cards = new ArrayList(DECK_SIZE);
+        this.cards = new ArrayList<>(DECK_SIZE);
 
         for(Card.Rank r : Card.Rank.values()) {
             for(Card.Suit s : Card.Suit.values()) {
